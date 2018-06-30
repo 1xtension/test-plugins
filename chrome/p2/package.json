@@ -1,0 +1,19 @@
+{
+  "name": "p2",
+  "version": "1.0.2",
+  "description": "p2",
+  "main": "p2.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test/p2.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Varun Malhota @softvar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/test/p2/issues"
+  },
+  "homepage": "https://github.com/test/p2#readme"
+}
