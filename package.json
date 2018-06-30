@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "prepush": "node scripts/validate-config.js",
+    "test": "npm run test"
+  },
+  "lint-staged": {
+    "globOptions": {
+      "matchBase": false
+    },
+    "linters": {
+      "chrome/**/*.*": ["node scripts/update-config.js"]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softvar/test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Varun Malhota @softvar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softvar/test/issues"
+  },
+  "homepage": "https://github.com/softvar/test#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4"
+  }
+}
